@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1712480384914') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cart:before {
+  content: "\f0171";
+}
+
+.icon-iconfonticon5:before {
+  content: "\e615";
+}
+
+.icon-iconfonticon:before {
+  content: "\e616";
+}
+
+.icon-iconfontzoomin:before {
+  content: "\e636";
+}
+
+.icon-custom-praise:before {
+  content: "\e617";
+}
+
+.icon-custom-tolove:before {
+  content: "\e640";
+}
+
+.icon-iconfontbianji:before {
+  content: "\e614";
+}
+
+.icon-iconfontdel:before {
+  content: "\e602";
+}
+
+.icon-iconfontxiaoxi:before {
+  content: "\e634";
+}
+
+.icon-zuo:before {
+  content: "\e624";
+}
+
+.icon-you:before {
+  content: "\e625";
+}
+
+.icon-youjian:before {
+  content: "\e630";
+}
+
+.icon-iconfont_fangdajing:before {
+  content: "\e604";
+}
+

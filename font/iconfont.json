@@ -1,0 +1,100 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "159971",
+      "name": "cart",
+      "font_class": "cart",
+      "unicode": "f0171",
+      "unicode_decimal": 983409
+    },
+    {
+      "icon_id": "354418",
+      "name": "个人中心",
+      "font_class": "iconfonticon5",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "354419",
+      "name": "可视",
+      "font_class": "iconfonticon",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "385781",
+      "name": "iconfont-zoomin",
+      "font_class": "iconfontzoomin",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "513181",
+      "name": "praise",
+      "font_class": "custom-praise",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "525798",
+      "name": "tolove",
+      "font_class": "custom-tolove",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "576592",
+      "name": "iconfont-bianji",
+      "font_class": "iconfontbianji",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "584008",
+      "name": "iconfont-del",
+      "font_class": "iconfontdel",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "997433",
+      "name": "iconfont-xiaoxi",
+      "font_class": "iconfontxiaoxi",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "1215734",
+      "name": "BBD左",
+      "font_class": "zuo",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "1215735",
+      "name": "BBD右",
+      "font_class": "you",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "1216774",
+      "name": "BBD邮件",
+      "font_class": "youjian",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "5196151",
+      "name": "iconfont_放大镜",
+      "font_class": "iconfont_fangdajing",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}
