@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.user_profile{
+    margin-bottom: 15px;
+}
+.profile-box{
+    width: 550px;
+    background: linear-gradient(#f3e7e9, #e3eeff);
+    margin: 70px 500px 0 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.profile-info .edit-profile {
+    margin-bottom: 30px;
+}
+
+.user-avatar img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.user-details p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.edit-profile form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.edit-profile label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.edit-profile input[type="text"],
+.edit-profile input[type="email"],
+.edit-profile input[type="tel"],
+.edit-profile textarea {
+    width: 60%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.edit-profile button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-profile button:hover {
+    background-color: #0056b3;
+}

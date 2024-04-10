@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="#">
     <link rel="stylesheet" href="../css/shop.css">
     <link rel="stylesheet" href="../font/iconfont.css">
-    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/profile-new.css">
 </head>
 <body>
     <!-- topbar start -->
@@ -36,137 +36,32 @@
     </div>
     <!-- topbar end -->
 
-    <!-- secondbar start -->
-    <div class="secondbar">
-        <div class="warp">
-            <div class="logo">
-                <img src="../image/boutique-handcraftmodel-housse-high-resolution-logo-transparent.png" width="250" alt="Boutique Handcraft Model House" 
-                class="logo-home">
-            </div>
-            <div class="secondbar-mid">
-                <ul>
-                    <li>
-                        <a href="#">Accessories</a>
-                    </li>
-                    <li><a href="#">Scale Figures</a></li>
-                    <li><a href="#">Nendoroid</a></li>
-                    <li><a href="#">Garage Kit(GK)</a></li>
-                    <li><a href="#">Gunpla</a></li>
-                    <li>
-                        <a href="#">New Figures</a>
-                        <div class="secondbar-mid-list">
-                            <div class="secondbar-warp">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <div class="img-box">
-                                                <img src="https://resize.cdn.otakumode.com/ex/228.228/108.263.978.978/shop/product/50e63f9e77a64ad082baffb86fb781ee.jpg.webp" width="150px">
-                                            </div>
-                                            <p class="name">Mortal Mind Series Neon Genesis Evangelion</p>
-                                            <p class="price">RM 1049</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="img-box">
-                                                <img src="https://resize.cdn.otakumode.com/ex/228.228/233.198.447.446/shop/product/bbcd62c32c9842a49074a8446856fed2.jpg.webp" width="150px">
-                                            </div>
-                                            <p class="name">Date A Live Kurumi Tokisaki</p>
-                                            <p class="price">RM 489</p>
-                                        </a> 
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="img-box">
-                                                <img src="https://resize.cdn.otakumode.com/ex/228.228/0.94.750.749/shop/product/af40d2cf2f31498db2749c620f0fe121.jpg.webp" width="150px">
-                                            </div>
-                                            <p class="name">Nendoroid Blue Archive Noa Ushio</p>
-                                            <p class="price">RM 135</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="img-box">
-                                                <img src="https://resize.cdn.otakumode.com/ex/228.228/138.99.435.434/shop/product/9508b94a09ca49308d069e35527f9f31.jpg.webp" width="150px">
-                                            </div>
-                                            <p class="name">Pop Up Parade Frieren</p>
-                                            <p class="price">RM 140</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="img-box">
-                                                <img src="https://resize.cdn.otakumode.com/ex/228.228/181.147.431.431/shop/product/ec54fa57fa084d279f3b31276ef052e9.jpg.webp" width="150px">
-                                            </div>
-                                            <p class="name">Pop Up Parade La+ Darknesss</p>
-                                            <p class="price">RM 95</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="img-box">
-                                                <img src="https://resize.cdn.otakumode.com/ex/228.228/166.86.316.316/shop/product/3b409c625c1542ecbe9a5532f73cc065.jpg.webp" width="150px">
-                                            </div>
-                                            <p class="name">figma KonoSuba: God’s Blessing on This Wonderful World! 3 Aqua </p>
-                                            <p class="price">RM 189</p>
-                                        </a> 
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="img-box">
-                                                <img src="https://resize.cdn.otakumode.com/ex/228.228/14.64.702.702/shop/product/118cbff2d21547cd8865bc9a2d1cf606.jpg.webp" width="150px">
-                                            </div>
-                                            <p class="name">Nendoroid Gushing Over Magical Girls Magia Baiser</p>
-                                            <p class="price">RM 140</p>
-                                        </a> 
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="search">
-                <input type="text" placeholder="Search Product Here"><button class="iconfont">&#xe604;</button>
-            </div>
-        </div>
-    </div>
-    <!-- secondbar end -->
+
 
     <!-- profile start -->
-    <main class="profile">
-        <section class="profile-info">
-            <h1>User Profile</h1>
-            <div class="user-avatar">
-                <img src="avatar.jpg" alt="User Avatar">
-            </div>
-            <div class="user-details">
-                <p><strong>username:</strong> JohnDoe</p>
-                <p><strong>email:</strong> johndoe@example.com</p>
-                <p><strong>phone number:</strong> +1234567890</p>
-                <p><strong>address:</strong> 123 Main Street, City, Country</p>
-            </div>
-        </section>
+    <div class="profile-box">
+        <form>
+            <h1 class="user_profile">User Profile</h1>
+            <hr>
+            <section class="edit-profile">
+                <form>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" value="JohnDoe">
 
-        <section class="edit-profile">
-            <h2>edit profile </h2>
-            <form>
-                <label for="username">username:</label>
-                <input type="text" id="username" name="username" value="JohnDoe">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" value="johndoe@example.com">
 
-                <label for="email">email:</label>
-                <input type="email" id="email" name="email" value="johndoe@example.com">
+                    <label for="phone">phone:</label>
+                    <input type="tel" id="phone" name="phone" value="+1234567890">
 
-                <label for="phone">phone number:</label>
-                <input type="tel" id="phone" name="phone" value="+1234567890">
-
-                <label for="address">address:</label>
-                <textarea id="address" name="address">123 Main Street, City, Country</textarea>
-
-                <button type="submit">save</button>
-            </form>
-        </section>
-    </main>
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address">123 Main Street, City, Country</textarea>
+                    <br>
+                    <button type="submit">Save</button>
+                </form>
+            </section>
+        </form>
+    </div>
     <!-- profile end -->
 </body>
 </html>
