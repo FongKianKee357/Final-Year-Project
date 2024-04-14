@@ -7,12 +7,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(200deg,#f3e7e9,#e3eeff);
+    /* background: linear-gradient(200deg,#f3e7e9,#e3eeff); */
+    background-image: url("../image/屏幕截图\ 2024-04-14\ 001320.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .container{
     background-color: #fff;
-    width: 650px;
-    height: 435px;
+    width: 660px;
+    height: 490px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     position: relative;
@@ -22,8 +25,8 @@ body{
     top: -10%;
     left: 5%;
     background-color: #65c3f1;
-    width: 320px;
-    height: 520px;
+    width: 350px;
+    height: 590px;
     border-radius: 5px;
     box-shadow: 2px 0 10px rgba(0,0,0,0.1);
     display: flex;
@@ -42,6 +45,7 @@ body{
     display: none;
     transition: 0.5s;
 }
+
 h1{
     text-align: center;
     margin-bottom: 25px;
@@ -49,6 +53,7 @@ h1{
     color: #fff;
     letter-spacing: 5px;
 }
+
 input{
     background-color: transparent;
     width: 70%;
@@ -64,15 +69,18 @@ input{
 input::placeholder{
     color: #fff;
 }
+
 input:focus{
     color: #65c3f1;
     outline: none;
     border-bottom: 1px solid #1aa7ec80;
     transition: 0.5s;
 }
+
 input:focus::placeholder{
     opacity: 0;
 }
+
 .form-box button{
     width: 70%;
     margin-top: 35px;
@@ -106,27 +114,37 @@ input:focus::placeholder{
 .con-box.right{
     right: -2%;
 }
-.con-box h2{
+
+.wel{
     color: #8e9aaf;
-    font-size: 25px;
+    font-size: 38px;
     font-weight: bold;
     letter-spacing: 3px;
     text-align: center;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
+
+.otherw{
+    color: #65c3f1;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 .con-box p{
     font-size: 12px;
     letter-spacing: 2px;
     color: #8e9aaf;
     text-align: center;
 }
-.con-box span{
-    color: #65c3f1;
-}
+
 .con-box img{
     height: 200px;
     opacity: 0.9;
     margin: 40px 0;
+    border-bottom: 3px solid #65c3f1;
 }
 .con-box button{
     margin-top: 3%;
