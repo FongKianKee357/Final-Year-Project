@@ -6,28 +6,34 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 
     <title>login and register</title>
-    <link rel="stylesheet" href="../css/81.css">
+    <link rel="stylesheet" href="../css/login and register.css">
 </head>
 
 <body>
     <div class="container">
         <div class="form-box">
             <!-- register -->
-            <div class="register-box hidden">
-                <h1>register</h1>
-                <input type="text" placeholder="Username">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <input type="password" placeholder="Re-password">
-                <button>Register</button>
-            </div>
+            <form action="../php/register.php" method="post" novalidate>
+                <div class="register-box hidden">
+                    <h1>register</h1>
+                    <input type="text" placeholder="Username" name="name">
+                    <input type="email" placeholder="Email" name="email">
+                    <input type="password" placeholder="Password" name="pass">
+                    <input type="password" placeholder="Re-password" name="qpass">
+                    <button name="reg">Register</button>
+                </div>
+            </form>
+        
             <!-- login -->
-            <div class="login-box">
-                <h1>login</h1>
-                <input type="text" placeholder="Username">
-                <input type="password" placeholder="Password">
-                <button>Login</button>
-            </div>
+            <form action="../php/login.php" method="post">
+                <div class="login-box">
+                    <h1>login</h1>
+                    <input type="text" placeholder="Username" name="name">
+                    <input type="password" placeholder="Password" name="pass">
+                    <button name="login">Login</button>
+                </div>
+            </form>
+            
         </div>
         <div class="con-box left">
             <br><br><br>
@@ -35,7 +41,6 @@
             <span class="otherw">to Boutique<br></span>
             <span class="otherw">Handcraft <br> </span> 
             <span class="otherw">Model House</span></span>    
-            <!-- <img src="../image/cover.jpg" alt=""> -->
             <br><br><br><br><br><br><br>
             <p>Have Account</p>
             <button id="login">Login</button>
@@ -46,7 +51,6 @@
             <span class="otherw">to Boutique<br></span>
             <span class="otherw">Handcraft <br> </span> 
             <span class="otherw">Model House</span></span> 
-            <!-- <img src="../image/434678530_443197688066407_6269890760192161131_n.jpg" alt=""> -->
             <br><br><br><br><br><br><br>
             <p>No Account</p>
             <button id="register">Sign Up</button>

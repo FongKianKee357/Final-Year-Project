@@ -55,7 +55,7 @@ h1{
 }
 
 input{
-    background-color: transparent;
+    background-color: #65c3f1;
     width: 70%;
     color: #fff;
     border: none;
@@ -71,7 +71,7 @@ input::placeholder{
 }
 
 input:focus{
-    color: #65c3f1;
+    color: #fff;
     outline: none;
     border-bottom: 1px solid #1aa7ec80;
     transition: 0.5s;
